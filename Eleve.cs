@@ -57,11 +57,8 @@ namespace HNI_TPmoyennes
             for (int m = 0; m<10; m++)
             {
                 float moy = moyenneMatiere(m);
-                if (moy > 0)
-                {
-                    somme = somme + moy;
-                    nbMatiere++;
-                }
+                somme = somme + moy;
+                nbMatiere++;               
             }
             if (nbMatiere == 0) 
                 return 0;
