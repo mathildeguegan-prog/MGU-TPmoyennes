@@ -85,7 +85,3 @@ namespace HNI_TPmoyennes
 
 
 }
-
-// Moyenne de la class
-// quelle classe
-// 30 eleve max
